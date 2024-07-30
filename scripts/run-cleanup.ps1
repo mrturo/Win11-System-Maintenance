@@ -3,6 +3,7 @@ $scriptsPath = "C:\path\to\your\scripts"
 
 # Hash table with script names and their parameters
 $scripts = @{
+    "node-cleanup.ps1" = @{ reposPath = "C:\path\to\your\node\repos" }
     "update-packages.ps1" = @{}
 }
 
