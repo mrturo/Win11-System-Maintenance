@@ -6,6 +6,7 @@ This repository contains a set of PowerShell scripts designed for system mainten
 
 - [Scripts](#scripts)
   - [run-cleanup.ps1](#run-cleanupps1)
+  - [update-packages.ps1](#update-packagesps1)
 - [Usage](#usage)
 
 ## Scripts
@@ -15,6 +16,12 @@ This script runs all maintenance scripts.
 
 #### Usage
 ```.\run-cleanup.ps1```
+
+### update-packages.ps1
+This script updates all applications using winget on Windows 11.
+
+#### Usage
+```.\update-packages.ps1```
 
 ## Usage
 Clone this repository to your local machine.

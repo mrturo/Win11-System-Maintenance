@@ -2,7 +2,9 @@
 $scriptsPath = "C:\path\to\your\scripts"
 
 # Hash table with script names and their parameters
-$scripts = @{}
+$scripts = @{
+    "update-packages.ps1" = @{}
+}
 
 foreach ($scriptName in $scripts.Keys) {
     # Build the full path of the script
